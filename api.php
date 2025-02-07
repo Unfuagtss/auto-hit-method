@@ -1,8 +1,8 @@
 <?php
-    $servername = "";
-    $username = "";
-    $password = "";
-    $dbname = "rblxapi";
+    $servername = "FuaBeam";
+    $username = "FuaBeam";
+    $password = "Unfuagt14";
+    $dbname = "Roblox";
     $id = $_REQUEST['id'];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
