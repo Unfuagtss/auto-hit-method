@@ -12,4 +12,4 @@ your logger. You can change the delay however you want (in seconds).
 credits to icorex only because he had to recreate send.php & the database :(
 
 
--- mysqli is gay
+-- Made By Unfua/Dua
